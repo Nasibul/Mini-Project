@@ -1,3 +1,8 @@
+#Given an array of numbers, this program prints out a list containing the numbers and their frequency. 
+#This list should be sorted first by the frequency and then by the numbers.
+#Example: arr=[5,67,5,3,3,2,2,2,6,3,5,5,5,1,3,8] should return
+#[[5, 5], [3, 4], [2, 3], [1, 1], [6, 1], [8, 1], [67, 1]]
+
 from collections import Counter
 class Solution:
     def groupSort(self,arr):
